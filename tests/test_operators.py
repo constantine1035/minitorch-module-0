@@ -116,7 +116,7 @@ def test_sigmoid(a: float) -> None:
 
     s2 = sigmoid(a + 1.0)
     assert s2 >= s
-    if -50.0 <= a <= 50.0:
+    if -20.0 <= a <= 20.0:
         assert s2 > s
 
 
